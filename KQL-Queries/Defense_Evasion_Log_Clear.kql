@@ -1,0 +1,5 @@
+// Detects when the Security Audit Log is cleared (Event 1102)
+// Logic: This is a high-severity indicator of an intruder trying to hide their tracks.
+SecurityEvent
+| where EventID == 1102
+| project TimeGenerated, Computer, Account, RenderedDescription
