@@ -1,0 +1,6 @@
+// Detects access to a Deception/Honeytoken file (Event 4663)
+// Logic: Monitors for access to "Bank_Passwords.txt" using Advanced Object Access Auditing.
+SecurityEvent
+| where EventID == 4663
+| where ObjectName contains "Bank_Passwords"
+| project TimeGenerated, Computer, Account, ObjectName, ProcessName
