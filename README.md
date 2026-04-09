@@ -26,7 +26,10 @@ In this project, I built a live SOC environment in Azure to detect and automatic
 One of the key challenges was resolving **400 BadRequest** errors in the SOAR pipeline. I resolved this by:
 - Configuring **System-Assigned Managed Identities**.
 - Granting **Microsoft Sentinel Responder** roles via Azure IAM.
-- Using **KQL** to retrieve raw **ARM IDs** when dynamic content failed.<img width="1825" height="757" alt="Sentinel_KQL" src="https://github.com/user-attachments/assets/70f55035-ab41-4b13-9bca-afa7376bde73" />
+- Using **KQL** to retrieve raw **ARM IDs** when dynamic content failed.
+-
+-
+- <img width="1825" height="757" alt="Sentinel_KQL" src="https://github.com/user-attachments/assets/70f55035-ab41-4b13-9bca-afa7376bde73" />
 <img width="1726" height="870" alt="Incident_2" src="https://github.com/user-attachments/assets/503af9c5-c168-463a-b0a4-8c44c83404e8" />
 <img width="1432" height="740" alt="ATTACK_1" src="https://github.com/user-attachments/assets/d61f0e6e-3840-4b1b-aea9-9e6810393485" />
 <img width="1809" height="821" alt="Analytics_rules" src="https://github.com/user-attachments/assets/1f461bab-b93a-4e99-aac0-7b97d8c03302" />
