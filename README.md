@@ -32,7 +32,7 @@ One of the key challenges was resolving **400 BadRequest** errors in the SOAR pi
 - <img width="1825" height="757" alt="Sentinel_KQL" src="https://github.com/user-attachments/assets/70f55035-ab41-4b13-9bca-afa7376bde73" />
 <img width="1726" height="870" alt="Incident_2" src="https://github.com/user-attachments/assets/503af9c5-c168-463a-b0a4-8c44c83404e8" />
 <img width="1432" height="740" alt="ATTACK_1" src="https://github.com/user-attachments/assets/d61f0e6e-3840-4b1b-aea9-9e6810393485" />
-<img width="1809" height="821" alt="Analytics_rules" src="https://github.com/user-attachments/assets/1f461bab-b93a-4e99-aac0-7b97d8c03302" />
-<img width="1910" height="865" alt="LogicApp_Success " src="https://github.com/user-attachments/assets/d61e330d-562c-4a23-98f7-b8421f6b8dab" />
+<img width="1809" height="821" alt="Analytics_rules" src="https://github.com/user-attachments/assets/1f461bab-b93a-4e99-aac0-7b97d8c03302" /><img width="1629" height="865" alt="LogicApp_Success " src="https://github.com/user-attachments/assets/c54972e2-e1aa-4743-86a0-f6dd1ede2083" />
+
 <img width="1847" height="863" alt="Incidents" src="https://github.com/user-attachments/assets/905e0b39-75d1-4179-9736-905570cba316" />
 <img width="1658" height="883" alt="SOCLAB1" src="https://github.com/user-attachments/assets/856f457e-7339-454d-bd0d-599d020da537" />
