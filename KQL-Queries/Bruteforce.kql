@@ -1,0 +1,6 @@
+// Detects RDP Brute Force Attacks (Event 4625)
+// Logic: Triggers when more than 10 failed logins occur from the same IP within 10 minutes.
+SecurityEvent
+| where EventID == 4625
+| summarize FailureCount = count() by Computer, IpAddress, TargetAccount
+| where FailureCount > 10
